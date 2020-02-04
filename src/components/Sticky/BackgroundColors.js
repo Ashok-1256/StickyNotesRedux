@@ -1,0 +1,18 @@
+export const colors = [
+    'Snow',
+    'Honeydew',
+    'MintCream',		
+    'Azure',		
+    'AliceBlue',		
+    'GhostWhite',		
+    'WhiteSmoke',		
+    'Seashell',		
+    'Beige',		
+    'OldLace',		
+    'FloralWhite',		
+    'Ivory',		
+    'AntiqueWhite',		
+    'Linen',		
+    'LavenderBlush',		
+    'MistyRose',
+]

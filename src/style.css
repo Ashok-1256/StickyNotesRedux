@@ -28,12 +28,6 @@ li{
 .margin-left-default{
     margin-left:2%;
 }
-.margin-bottom-default{
-    margin-bottom: 2%;
-}
-.margin-left-container-size{
-    margin-left:40%;
-}
 
 .border-default{
 }
@@ -43,45 +37,25 @@ li{
 }
 
 .primary-button{
-    background-color: #54abf3;
-    opacity: 0.8;
-    cursor: pointer;
+    background-color: #0a8de4;
+    opacity: 0.7;
 }
-
-.secondary-button{
-    background-color: rgb(233, 71, 71);
-    opacity: 0.8;
-    cursor: pointer;
-}
-
-.primary-button:hover {
+.primary-button:hover{
     opacity: 1;
 }
-.secondary-button:hover{
-    opacity: 1;
-}
+
 
 /* ---------------------------------------------main classes----------------------------------------------*/
 
 .wrapper{
-    /* text-align: center; */
+    text-align: center;
 }
 
 .container{
-    /* margin-top: 5%; */
+    margin-top: 5%;
     width: 40%;
     border: 1px solid black;
 }
-
-.to-do-input{
-    width: 70%;
-    padding: 1%;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
 .add-to-do{
     text-align: center;
     
@@ -104,16 +78,9 @@ li{
 
 }
 
-.checkbox{
-    cursor: pointer;
-} 
-
 .delete-icon{
     color: rgb(212, 74, 120);
     margin-left: 30px;
-}
-.delete-icon:hover{
-    cursor: pointer;
 }
 
 .filter-button {
@@ -135,21 +102,20 @@ li{
     transform: translateY(4px);
   }
 
-.creation-time{
-    text-align: center;
-    color:brown;
-}
-.delete-checkbox{
-    width:25px;
-    height:25px;
-    cursor: pointer;
-}
+
   
 
 
 /* -----------------------------------------------Id------------------------------------------------------*/
 
-
+#to-do-input{
+    width: 70%;
+    padding: 1%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
 
 
 
